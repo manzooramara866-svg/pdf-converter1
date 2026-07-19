@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pdfplumber
+pandas
+openpyxl
+python-multipart
+stripe
