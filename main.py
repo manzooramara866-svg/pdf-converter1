@@ -165,8 +165,8 @@ def extract_tables_from_pdf(path: str) -> pd.DataFrame:
     return pd.DataFrame({"line": lines})
 
 
-@app.get("/")
-def root():
+@app.get("/api/health")
+def health():
     return {"status": "ok", "message": "PDF Converter API is running"}
 
 
